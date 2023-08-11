@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a1.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: Black;"><i><strong>This is my first assignment</strong></i></h1>
+    <h2 style="color: Black;">Select your favorite car by Selecting the image</h2>
+    <div>
+        <fieldset>
+            <h2>Please select an option:</h2>
+            <label for="volvo"><input type="radio" name="car" id="volvo" /><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqRLwh7dNL6kO4JHt2IZw0O3mbKviAeg75Q&usqp=CAU" alt="Volvo" width="200" height="100"> Volvo</label>
+            <br>
+            <label for="lamborghini"><input type="radio" name="car" id="lamborghini" /><img src="https://images.unsplash.com/photo-1580414057403-c5f451f30e1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="Lamborghini" width="200" height="200"> Lamborghini</label>
+            <br>
+            <label for="ferrari"><input type="radio" name="car" id="ferrari" /><img src="https://www.carscoops.com/wp-content/uploads/2022/03/Liberty-Walk-Ferrari-458-Italia-2.jpg" alt="Liberty Walk Ferrari 458 Italia" width="200" height="200"> Liberty Walk Ferrari 458 Italia</label>
+        </fieldset>
+    </div>
+    <h2>Read about the Cars History</h2>
+    <fieldset>
+        <table>
+            <tr>
+                <th colspan="3">Volvo</th>
+                <th colspan="3">Lamborghini</th>
+                <th colspan="3">Ferrari</th>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Volvo">Click Here!</a></td>
+                <td>Read</td>
+                <td>Here</td>
+                <td><a href="https://en.wikipedia.org/wiki/Lamborghini">Click Here!</a></td>
+                <td>Read</td>
+                <td>Here</td>
+                <td><a href="https://en.wikipedia.org/wiki/Ferrari">Click Here!</a></td>
+                <td>Read</td>
+                <td>Here</td>
+            </tr>
+        </table>
+    </fieldset>
+    <h4> Give Us your Info so you can stay updated!</h4>
+    <form class="formstyle" action="./action.php">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+        <label for="age">Age</label>
+        <input type="number" min="10" max="95">
+        <div>
+        <label for="email">Email</label>
+        <input type="text" id="email">
+        </div>
+        <div>
+        <label for="phone-number">Phone Number</label>
+        <input type="number" id="phone-number">
+        </div>
+    </form>
+    <fieldset>
+    <textarea style="Height: 100px;width: 250px;">Please Tell Us About Yourself</textarea>
+    </fieldset>
+    </div>
+    <div>
+        pick a date: <input type="date" name="date" value=""/>
+    </div>
+    <fieldset>
+     <input type="submit" value="submit">
+    </fieldset>
+</body>
+</html>
